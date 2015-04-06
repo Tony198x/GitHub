@@ -3,8 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{B2D54AF2-DAF1-4659-BE22-CB2B12135AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationForMvc", "WebApplicationForMvc\WebApplicationForMvc.csproj", "{01B74C95-EB3D-43E0-B655-E5D0F481DA2D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01B74C95-EB3D-43E0-B655-E5D0F481DA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B74C95-EB3D-43E0-B655-E5D0F481DA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B74C95-EB3D-43E0-B655-E5D0F481DA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B74C95-EB3D-43E0-B655-E5D0F481DA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01B74C95-EB3D-43E0-B655-E5D0F481DA2D} = {B2D54AF2-DAF1-4659-BE22-CB2B12135AAA}
 	EndGlobalSection
 EndGlobal
